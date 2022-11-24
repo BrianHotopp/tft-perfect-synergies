@@ -280,11 +280,8 @@ fn do_all_ltn_synergies(champs: &HashMap<u8, String>, traits: &HashMap<u8, Strin
     return teams;
 }
 fn synergies_to_json(teams: &Vec<Team>, file: &str) {
-    // writes   
     let mut file = File::create(file).unwrap();
-    // write the json with indents
     let json_teams = json!(teams);
-    // pretty string
     let pretty_json = serde_json::to_string_pretty(&json_teams).unwrap();
     // write the string to the file
     file.write_all(pretty_json.as_bytes()).unwrap();
@@ -316,7 +313,7 @@ fn main () {
     // 4: the maximum teamsize
     let args: Vec<String> = env::args().collect();
 
-// produce the following
+// produces the following
 // hashmap champs int, string where the ints are champid and the strings are names
 // hashmap costs string, int where the strings are champ names and the ints are the costs
 // hashmap traits int, string where the ints are trait ids and the strings are trait names
