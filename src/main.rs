@@ -313,12 +313,12 @@ fn main () {
     // 4: the maximum teamsize
     let args: Vec<String> = env::args().collect();
 
-// produces the following
-// hashmap champs int, string where the ints are champid and the strings are names
-// hashmap costs string, int where the strings are champ names and the ints are the costs
-// hashmap traits int, string where the ints are trait ids and the strings are trait names
-// hashmap breaks int, HashSet<int> where the ints are trait ids and the set is the set of breakpoints
-// champtraits hashmap int, hashset<int> where the ints are champ ids and the set is the set of trait ids for the champ
+    // produces the following
+    // hashmap champs int, string where the ints are champid and the strings are names
+    // hashmap costs string, int where the strings are champ names and the ints are the costs
+    // hashmap traits int, string where the ints are trait ids and the strings are trait names
+    // hashmap breaks int, HashSet<int> where the ints are trait ids and the set is the set of breakpoints
+    // champtraits hashmap int, hashset<int> where the ints are champ ids and the set is the set of trait ids for the champ
     // handle the arguments
     if args.len() != 7 {
         println!("Usage: {} <output folder> <max waste> <min teamsize> <max teamsize> <champs_filename> <traits_filename>", args[0]);
