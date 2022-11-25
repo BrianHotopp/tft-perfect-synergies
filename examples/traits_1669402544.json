@@ -1,0 +1,239 @@
+[
+    {
+        "name": "lagoon",
+        "breaks": [
+            3,
+            6,
+            9,
+            1
+        ]
+    },
+    {
+        "name": "ragewing",
+        "breaks": [
+            2,
+            4,
+            6,
+            8
+        ]
+    },
+    {
+        "name": "jade",
+        "breaks": [
+            2,
+            5,
+            7,
+            9
+        ]
+    },
+    {
+        "name": "astral",
+        "breaks": [
+            3,
+            5,
+            8
+        ]
+    },
+    {
+        "name": "tempest",
+        "breaks": [
+            2,
+            4,
+            6,
+            8
+        ]
+    },
+    {
+        "name": "shimmerscale",
+        "breaks": [
+            3,
+            5,
+            7,
+            9
+        ]
+    },
+    {
+        "name": "mirage",
+        "breaks": [
+            2,
+            4,
+            6,
+            8
+        ]
+    },
+    {
+        "name": "guild",
+        "breaks": [
+            1
+        ]
+    },
+    {
+        "name": "whispers",
+        "breaks": [
+            2,
+            4,
+            6
+        ]
+    },
+    {
+        "name": "scalescorn",
+        "breaks": [
+            2,
+            4,
+            6
+        ]
+    },
+    {
+        "name": "darkflight",
+        "breaks": [
+            2,
+            4,
+            6,
+            8
+        ]
+    },
+    {
+        "name": "prodigy",
+        "breaks": [
+            1
+        ]
+    },
+    {
+        "name": "monolith",
+        "breaks": [
+            1
+        ]
+    },
+    {
+        "name": "dragon",
+        "breaks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ]
+    },
+    {
+        "name": "mage",
+        "breaks": [
+            3,
+            5,
+            7,
+            9
+        ]
+    },
+    {
+        "name": "guardian",
+        "breaks": [
+            2,
+            4,
+            6,
+            6
+        ]
+    },
+    {
+        "name": "dragonmancer",
+        "breaks": [
+            2,
+            4,
+            6,
+            8
+        ]
+    },
+    {
+        "name": "bruiser",
+        "breaks": [
+            2,
+            4,
+            6,
+            6
+        ]
+    },
+    {
+        "name": "warrior",
+        "breaks": [
+            2,
+            4,
+            6
+        ]
+    },
+    {
+        "name": "cavalier",
+        "breaks": [
+            2,
+            3,
+            4,
+            5,
+            6
+        ]
+    },
+    {
+        "name": "swiftshot",
+        "breaks": [
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "name": "shapeshifter",
+        "breaks": [
+            2,
+            4
+        ]
+    },
+    {
+        "name": "mystic",
+        "breaks": [
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "name": "cannoneer",
+        "breaks": [
+            2,
+            4,
+            6
+        ]
+    },
+    {
+        "name": "assassin",
+        "breaks": [
+            2,
+            4,
+            6
+        ]
+    },
+    {
+        "name": "evoker",
+        "breaks": [
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "name": "starcaller",
+        "breaks": [
+            1
+        ]
+    },
+    {
+        "name": "spell-thief",
+        "breaks": [
+            1
+        ]
+    },
+    {
+        "name": "bard",
+        "breaks": [
+            1
+        ]
+    }
+]

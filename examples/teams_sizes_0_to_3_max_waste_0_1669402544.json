@@ -1,0 +1,523 @@
+[
+  {
+    "active_traits": {},
+    "average_cost": null,
+    "max_cost": [
+      "",
+      0
+    ],
+    "min_cost": [
+      "",
+      6
+    ],
+    "size": 0,
+    "team": [],
+    "total_cost": 0,
+    "total_wasted_traits": 0,
+    "wasted_traits": {}
+  },
+  {
+    "active_traits": {
+      "dragon": 1,
+      "guild": 1
+    },
+    "average_cost": 6.0,
+    "max_cost": [
+      "Zippy",
+      6
+    ],
+    "min_cost": [
+      "",
+      6
+    ],
+    "size": 1,
+    "team": [
+      "Zippy"
+    ],
+    "total_cost": 6,
+    "total_wasted_traits": 0,
+    "wasted_traits": {}
+  },
+  {
+    "active_traits": {
+      "dragon": 1,
+      "prodigy": 1
+    },
+    "average_cost": 6.0,
+    "max_cost": [
+      "Nomsy",
+      6
+    ],
+    "min_cost": [
+      "",
+      6
+    ],
+    "size": 1,
+    "team": [
+      "Nomsy"
+    ],
+    "total_cost": 6,
+    "total_wasted_traits": 0,
+    "wasted_traits": {}
+  },
+  {
+    "active_traits": {
+      "dragon": 1,
+      "monolith": 1
+    },
+    "average_cost": 8.0,
+    "max_cost": [
+      "Terra",
+      8
+    ],
+    "min_cost": [
+      "",
+      6
+    ],
+    "size": 1,
+    "team": [
+      "Terra"
+    ],
+    "total_cost": 8,
+    "total_wasted_traits": 0,
+    "wasted_traits": {}
+  },
+  {
+    "active_traits": {
+      "dragon": 2,
+      "guild": 1,
+      "monolith": 1
+    },
+    "average_cost": 7.0,
+    "max_cost": [
+      "Terra",
+      8
+    ],
+    "min_cost": [
+      "",
+      6
+    ],
+    "size": 2,
+    "team": [
+      "Zippy",
+      "Terra"
+    ],
+    "total_cost": 14,
+    "total_wasted_traits": 0,
+    "wasted_traits": {}
+  },
+  {
+    "active_traits": {
+      "dragon": 2,
+      "guild": 1,
+      "prodigy": 1
+    },
+    "average_cost": 6.0,
+    "max_cost": [
+      "Zippy",
+      6
+    ],
+    "min_cost": [
+      "",
+      6
+    ],
+    "size": 2,
+    "team": [
+      "Zippy",
+      "Nomsy"
+    ],
+    "total_cost": 12,
+    "total_wasted_traits": 0,
+    "wasted_traits": {}
+  },
+  {
+    "active_traits": {
+      "dragon": 2,
+      "monolith": 1,
+      "prodigy": 1
+    },
+    "average_cost": 7.0,
+    "max_cost": [
+      "Terra",
+      8
+    ],
+    "min_cost": [
+      "",
+      6
+    ],
+    "size": 2,
+    "team": [
+      "Terra",
+      "Nomsy"
+    ],
+    "total_cost": 14,
+    "total_wasted_traits": 0,
+    "wasted_traits": {}
+  },
+  {
+    "active_traits": {
+      "cannoneer": 2,
+      "dragon": 1,
+      "lagoon": 1,
+      "tempest": 2
+    },
+    "average_cost": 5.0,
+    "max_cost": [
+      "Ao Shin",
+      8
+    ],
+    "min_cost": [
+      "Zeri",
+      3
+    ],
+    "size": 3,
+    "team": [
+      "Zeri",
+      "Graves",
+      "Ao Shin"
+    ],
+    "total_cost": 15,
+    "total_wasted_traits": 0,
+    "wasted_traits": {}
+  },
+  {
+    "active_traits": {
+      "guild": 1,
+      "jade": 2,
+      "shapeshifter": 2,
+      "starcaller": 1
+    },
+    "average_cost": 3.6666666666666665,
+    "max_cost": [
+      "Soraka",
+      5
+    ],
+    "min_cost": [
+      "Gnar",
+      2
+    ],
+    "size": 3,
+    "team": [
+      "Gnar",
+      "Soraka",
+      "Jayce"
+    ],
+    "total_cost": 11,
+    "total_wasted_traits": 0,
+    "wasted_traits": {}
+  },
+  {
+    "active_traits": {
+      "cavalier": 2,
+      "darkflight": 2,
+      "dragon": 1,
+      "guild": 1
+    },
+    "average_cost": 3.3333333333333335,
+    "max_cost": [
+      "Swain, Dragon Tyrant",
+      7
+    ],
+    "min_cost": [
+      "Sejuani",
+      1
+    ],
+    "size": 3,
+    "team": [
+      "Sejuani",
+      "Swain, Dragon Tyrant",
+      "Rell"
+    ],
+    "total_cost": 10,
+    "total_wasted_traits": 0,
+    "wasted_traits": {}
+  },
+  {
+    "active_traits": {
+      "dragon": 1,
+      "dragonmancer": 2,
+      "lagoon": 1,
+      "tempest": 2
+    },
+    "average_cost": 4.333333333333333,
+    "max_cost": [
+      "Ao Shin",
+      8
+    ],
+    "min_cost": [
+      "Kai'sa",
+      2
+    ],
+    "size": 3,
+    "team": [
+      "Kai'sa",
+      "Lee Sin",
+      "Ao Shin"
+    ],
+    "total_cost": 13,
+    "total_wasted_traits": 0,
+    "wasted_traits": {}
+  },
+  {
+    "active_traits": {
+      "cavalier": 2,
+      "dragon": 1,
+      "guild": 1,
+      "mirage": 2
+    },
+    "average_cost": 3.6666666666666665,
+    "max_cost": [
+      "Daeja",
+      7
+    ],
+    "min_cost": [
+      "Sejuani",
+      1
+    ],
+    "size": 3,
+    "team": [
+      "Sejuani",
+      "Daeja",
+      "Nunu"
+    ],
+    "total_cost": 11,
+    "total_wasted_traits": 0,
+    "wasted_traits": {}
+  },
+  {
+    "active_traits": {
+      "bard": 1,
+      "dragon": 1,
+      "guild": 1,
+      "jade": 2,
+      "mystic": 2,
+      "starcaller": 1
+    },
+    "average_cost": 5.666666666666667,
+    "max_cost": [
+      "Shi Oh Yu",
+      7
+    ],
+    "min_cost": [
+      "Bard",
+      5
+    ],
+    "size": 3,
+    "team": [
+      "Shi Oh Yu",
+      "Bard",
+      "Soraka"
+    ],
+    "total_cost": 17,
+    "total_wasted_traits": 0,
+    "wasted_traits": {}
+  },
+  {
+    "active_traits": {
+      "cannoneer": 2,
+      "darkflight": 2,
+      "dragon": 1,
+      "lagoon": 1
+    },
+    "average_cost": 4.0,
+    "max_cost": [
+      "Swain, Dragon Tyrant",
+      7
+    ],
+    "min_cost": [
+      "Aphelios",
+      2
+    ],
+    "size": 3,
+    "team": [
+      "Zeri",
+      "Aphelios",
+      "Swain, Dragon Tyrant"
+    ],
+    "total_cost": 12,
+    "total_wasted_traits": 0,
+    "wasted_traits": {}
+  },
+  {
+    "active_traits": {
+      "dragonmancer": 2,
+      "jade": 2,
+      "lagoon": 1,
+      "starcaller": 1
+    },
+    "average_cost": 2.6666666666666665,
+    "max_cost": [
+      "Soraka",
+      5
+    ],
+    "min_cost": [
+      "Karma",
+      1
+    ],
+    "size": 3,
+    "team": [
+      "Karma",
+      "Kai'sa",
+      "Soraka"
+    ],
+    "total_cost": 8,
+    "total_wasted_traits": 0,
+    "wasted_traits": {}
+  },
+  {
+    "active_traits": {
+      "dragon": 3,
+      "guild": 1,
+      "monolith": 1,
+      "prodigy": 1
+    },
+    "average_cost": 6.666666666666667,
+    "max_cost": [
+      "Terra",
+      8
+    ],
+    "min_cost": [
+      "",
+      6
+    ],
+    "size": 3,
+    "team": [
+      "Zippy",
+      "Terra",
+      "Nomsy"
+    ],
+    "total_cost": 20,
+    "total_wasted_traits": 0,
+    "wasted_traits": {}
+  },
+  {
+    "active_traits": {
+      "dragonmancer": 2,
+      "lagoon": 1,
+      "mirage": 2,
+      "warrior": 2
+    },
+    "average_cost": 3.0,
+    "max_cost": [
+      "Yasuo",
+      5
+    ],
+    "min_cost": [
+      "Yone",
+      2
+    ],
+    "size": 3,
+    "team": [
+      "Yasuo",
+      "Yone",
+      "Kai'sa"
+    ],
+    "total_cost": 9,
+    "total_wasted_traits": 0,
+    "wasted_traits": {}
+  },
+  {
+    "active_traits": {
+      "assassin": 2,
+      "dragon": 1,
+      "lagoon": 1,
+      "tempest": 2
+    },
+    "average_cost": 4.666666666666667,
+    "max_cost": [
+      "Ao Shin",
+      8
+    ],
+    "min_cost": [
+      "Qiyana",
+      2
+    ],
+    "size": 3,
+    "team": [
+      "Qiyana",
+      "Nilah",
+      "Ao Shin"
+    ],
+    "total_cost": 14,
+    "total_wasted_traits": 0,
+    "wasted_traits": {}
+  },
+  {
+    "active_traits": {
+      "dragon": 1,
+      "guild": 1,
+      "swiftshot": 2,
+      "tempest": 2
+    },
+    "average_cost": 3.6666666666666665,
+    "max_cost": [
+      "Ao Shin",
+      8
+    ],
+    "min_cost": [
+      "Ezreal",
+      1
+    ],
+    "size": 3,
+    "team": [
+      "Twitch",
+      "Ao Shin",
+      "Ezreal"
+    ],
+    "total_cost": 11,
+    "total_wasted_traits": 0,
+    "wasted_traits": {}
+  },
+  {
+    "active_traits": {
+      "dragon": 1,
+      "guardian": 2,
+      "lagoon": 1,
+      "mirage": 2
+    },
+    "average_cost": 3.3333333333333335,
+    "max_cost": [
+      "Daeja",
+      7
+    ],
+    "min_cost": [
+      "Leona",
+      1
+    ],
+    "size": 3,
+    "team": [
+      "Daeja",
+      "Zac",
+      "Leona"
+    ],
+    "total_cost": 10,
+    "total_wasted_traits": 0,
+    "wasted_traits": {}
+  },
+  {
+    "active_traits": {
+      "assassin": 2,
+      "darkflight": 2,
+      "dragon": 1,
+      "lagoon": 1
+    },
+    "average_cost": 4.666666666666667,
+    "max_cost": [
+      "Swain, Dragon Tyrant",
+      7
+    ],
+    "min_cost": [
+      "Rengar",
+      3
+    ],
+    "size": 3,
+    "team": [
+      "Nilah",
+      "Rengar",
+      "Swain, Dragon Tyrant"
+    ],
+    "total_cost": 14,
+    "total_wasted_traits": 0,
+    "wasted_traits": {}
+  }
+]
