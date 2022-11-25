@@ -223,6 +223,28 @@ impl Team {
         // return success
         return 0;
     }
+    fn unit_with_min_cost(team: &Vec<&u8>, costs: &HashMap<u8, u8>, champs: &HashMap<u8, String>) -> (String, u8) {
+        let mut min_cost = (String::from(""), 100);
+        for nit in team {
+            let cost = costs[*nit];
+            if cost < min_cost.1 {
+                min_cost.0 = champs[*nit].to_string();
+                min_cost.1 = cost;
+            }
+        }
+        min_cost
+    }
+    fn unit_with_max_cost(team: &Vec<&u8>, costs: &HashMap<u8, u8>, champs: &HashMap<u8, String>) -> (String, u8) {
+        let mut max_cost = (String::from(""), 0);
+        for nit in team {
+            let cost = costs[*nit];
+            if cost > max_cost.1 {
+                max_cost.0 = champs[*nit].to_string();
+                max_cost.1 = cost;
+            }
+        }
+        max_cost
+    }
     fn team_from_list(team: &Vec<&u8>, traits: &HashMap<u8, String>,  champs: &HashMap<u8, String>, unit_traits: &HashMap<u8, Vec<u8>>, wastes: &HashMap<u8, HashMap<u8, u8>>, costs: &HashMap<u8, u8>) -> Team {
         let size = team.len() as u8;
         let mut str_team = team.iter().map(|&nit| champs[nit].to_string()).collect::<Vec<String>>();
@@ -232,8 +254,9 @@ impl Team {
 
         Team::get_team_traits(&mut active_traits, &mut wasted_traits, &mut total_wasted_traits, &team, &traits, &unit_traits, &wastes);
         let mut total_cost = 0;
-        let mut max_cost = ("".to_string(), 0);
-        let mut min_cost = ("".to_string(), 6);
+        let mut max_cost = unit_with_max_cost(&team, &costs, &champs);
+        // tuple with the unit that costs the least and the cost
+        let mut min_cost = unit_with_min_cost(&team, &costs, &champs);
         let mut average_cost = 0.0;
         Team::get_team_costs(&mut total_cost, &mut max_cost, &mut min_cost, &mut average_cost, &team, &champs, &costs);
         return Team::new(str_team, size, active_traits, wasted_traits, total_wasted_traits, total_cost, max_cost, min_cost, average_cost);
