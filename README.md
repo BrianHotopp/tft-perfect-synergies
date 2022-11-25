@@ -19,4 +19,4 @@ The name of the file containing the necessary trait data. An example of the inpu
 ## About
 There are ~60 champions in TFT, so brute force searching through all 435,878,172,349 teams of size 0-9 can take a while. It takes around 3.5 h on my laptop's i7-8750h. The program checks the teams in parallel and doesn't try to load all the combinations into memory at once, so in theory it can handle teams of size 10 or 11, but since it checks roughly 2.3*10^6 combinations/second it will around 9 hours to check only the teams of size 10 (and longer for larger team sizes).
 ## Development/Contributing
-If you can find a way to do this that is better than brute force, please submit a pr!
+If you can find a way to do this that is better than brute force, please submit a pr! Also if you are interested in searching for teams with other interesting properties, let me know! I would be happy to help you get started.
