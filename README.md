@@ -13,9 +13,9 @@ The minimum number of champions a team can have.
 ### max_teamsize
 The maximum number of champions a team can have.
 ### champs_filename
-The name of the file containing the necessary champion data. An example of the input format can be seen [here](./examples/champs_1669402544.json). To automatically generate this file by scraping mobafire, see [this tool](https://github.com/BrianHotopp/tft-unit-data-scraper)
+The name of the file containing the necessary champion data. An example of the input format can be seen [here](./examples/champs_1669402544.json). To automatically generate this file by scraping mobafire, see [this tool](https://github.com/BrianHotopp/tft-unit-data-scraper).
 ### traits_filename
-The name of the file containing the necessary trait data. An example of the input format can be seen [here](./examples/traits_1669402544.json). To automatically generate this file by scraping mobafire, see [this tool](https://github.com/BrianHotopp/tft-unit-data-scraper)
+The name of the file containing the necessary trait data. An example of the input format can be seen [here](./examples/traits_1669402544.json). To automatically generate this file by scraping mobafire, see [this tool](https://github.com/BrianHotopp/tft-unit-data-scraper).
 ## About
 There are ~60 champions in TFT, so brute force searching through all 435,878,172,349 teams of size 0-9 can take a while. It takes around 3.5 h on my laptop's i7-8750h. The program checks the teams in parallel and doesn't try to load all the combinations into memory at once, so in theory it can handle teams of size 10 or 11, but since it checks roughly 2.3*10^6 combinations/second it will around 9 hours to check only the teams of size 10 (and longer for larger team sizes).
 ## Development/Contributing
