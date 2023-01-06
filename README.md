@@ -1,7 +1,7 @@
 # tft-perfect-synergies
 Generate TFT team comps with few wasted traits! This program outputs JSON containing the team comps and metadata for each team. See [here](./examples/teams_sizes_0_to_3_max_waste_0_1669402544.json) for an example of the output format (contains all teams less than or equal to size 3 with no wasted traits).
 ## Using this tool
-Click releases on the right and download the binary for your system currently only linux and windows binaries are provided, but you should be able to run this on OSX by compiling it yourself with `cargo`.
+Click releases on the right and download the binary for your system. Currently only linux and windows binaries are provided, but you should be able to run this on OSX by compiling it yourself with `cargo`.
 Run the program from the command line using `./<program_name> <output_folder> <max_waste> <min_teamsize> <max_teamsize> <champs_filename> <traits_filename>`
 ## Arguments
 ### output_folder
